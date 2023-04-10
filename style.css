@@ -1,0 +1,70 @@
+body{
+    background-color: azure;
+    width: 70%;
+    margin: auto;
+    font-family: 'Yeseva One', cursive;
+}
+
+h1{
+    color: blue;
+    text-align: center;
+    margin-top: 64px;
+}
+
+#buttonContainer{
+    width: fit-content;
+    margin: auto;
+}
+
+#fortuneGeneratorButton{
+    padding: 10px;
+    font-size: 16px;
+    background: blueviolet;
+    border: 5px solid #D0104C;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    margin: 20px;
+}
+
+form {
+    text-align: center;
+}
+
+input {
+    top: 65vh;
+    padding: 15px 50px 15px 15px;
+    font-size: 15px;
+    border-radius: 5px;
+    text-align: left;
+    border: 2px solid black;
+}
+
+.ball{
+    width: 300px;
+    height: 300px;
+    background-color: black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+}
+
+.whitesurface{
+    width: 140px;
+    height: 140px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#fortune {
+    width: 70px;
+    color: black;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 120px;
+}
